@@ -29,6 +29,11 @@ background-color: orange;
 .heading.title {
     font-size: 70px;
 }
+
 .heading.description {
     font-size: 35px;
+}
+
+.heading.ingredients {
+    font-size: 25px;
 }
