@@ -1,10 +1,13 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(17, 69, 160);
 }
 
 button {
 font-weight: bold;
 font-family: "Arial", Helvetica, sans-serif;
+font-size: 30px;
 }
 
 .lasagna {
@@ -17,4 +20,12 @@ background-color: orange;
 
 .ice-cream {
     background-color: rgb(237, 53, 191);
+}
+
+.heading {
+    color: rgb(188, 0, 0);
+}
+
+.heading.title {
+    font-size: 70px;
 }
