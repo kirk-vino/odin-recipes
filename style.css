@@ -1,15 +1,16 @@
 button {
 font-weight: bold;
+font-family: "Arial", Helvetica, sans-serif;
 }
 
-#lasagna {
+.lasagna {
 background-color: orange;
 }
 
-#mashed-potatoes {
+.mashed-potatoes {
     background-color: white;
 }
 
-#ice-cream {
+.ice-cream {
     background-color: rgb(237, 53, 191);
 }
