@@ -64,12 +64,26 @@ div li {
 
 #description-ice-cream {
     background-color: rgba(243, 91, 91, 0.366);
+    border-radius: 25px;
+    padding: 15px;
+    width: auto;
+    height: auto;
 }
 
 #description-p {
     background-color: rgba(102, 145, 183, 0.48);
+    border-radius: 25px;
+    padding: 15px;
+    width: auto;
+    height: auto;
 }
 
 #description-lasagna {
     background-color: rgba(255, 111, 0, 0.634);
+    border-radius: 25px;
+    padding: 15px;
+    width: auto;
+    height: auto;
 }
+
+   
