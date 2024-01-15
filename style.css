@@ -56,3 +56,8 @@ background-color: orange;
     height: auto;
     width: 700px;
 }
+
+div li {
+    font-size: 18px;
+    color: rgb(152, 30, 113);
+}
