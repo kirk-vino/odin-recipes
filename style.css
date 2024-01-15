@@ -69,3 +69,7 @@ div p {
 #description-p {
     background-color: rgba(102, 145, 183, 0.48);
 }
+
+.description.lasagna {
+    background-color: rgba(255, 111, 0, 0.528);
+}
