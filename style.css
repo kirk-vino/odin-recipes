@@ -62,7 +62,7 @@ div li {
     color: rgb(152, 30, 113);
 }
 
-div p {
+#description-ice-cream {
     background-color: rgba(243, 91, 91, 0.366);
 }
 
@@ -70,6 +70,6 @@ div p {
     background-color: rgba(102, 145, 183, 0.48);
 }
 
-.description.lasagna {
-    background-color: rgba(255, 111, 0, 0.528);
+#description-lasagna {
+    background-color: rgba(255, 111, 0, 0.634);
 }
