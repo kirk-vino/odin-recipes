@@ -100,3 +100,7 @@ div li {
     .ingredients-items.mashed-potatoes {
         background-color: rgba(66, 215, 223, 0.575);
     }
+
+    .ingredients-items.ice-cream {
+        background-color: rgb(237, 127, 227);
+    }
