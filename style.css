@@ -87,10 +87,16 @@ div li {
     height: auto;
 }
 
-.ingredients-items.lasagna {
-    background-color: rgba(73, 198, 54, 0.616);
+.ingredients-items {
     border-radius: 25px;
     padding: 30px;
     width: 250px;
     height: auto;
+    }
+
+.ingredients-items.lasagna {
+        background-color: rgba(73, 198, 54, 0.616);
+    }
+    .ingredients-items.mashed-potatoes {
+        background-color: rgba(66, 215, 223, 0.575);
     }
