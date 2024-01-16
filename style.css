@@ -87,4 +87,10 @@ div li {
     height: auto;
 }
 
-   
+.ingredients-items.lasagna {
+    background-color: rgba(73, 198, 54, 0.616);
+    border-radius: 25px;
+    padding: 30px;
+    width: 250px;
+    height: auto;
+    }
