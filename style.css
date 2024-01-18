@@ -85,6 +85,9 @@ div li {
     padding: 15px;
     width: auto;
     height: auto;
+    margin-top: -20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .ingredients-items {
@@ -116,3 +119,6 @@ div li {
     margin-top: -10px;
 }
 
+h2.heading.description {
+    margin-left: 10px;
+}
