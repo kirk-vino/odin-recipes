@@ -5,10 +5,10 @@ body {
 }
 
 button {
-font-weight: bold;
-font-family: "Arial", Helvetica, sans-serif;
-font-size: 30px;
-border-radius: 25px;
+    font-weight: bold;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 25px;
 }
 
 .lasagna {
@@ -97,10 +97,22 @@ div li {
 .ingredients-items.lasagna {
         background-color: rgba(73, 198, 54, 0.616);
     }
-    .ingredients-items.mashed-potatoes {
+.ingredients-items.mashed-potatoes {
         background-color: rgba(66, 215, 223, 0.575);
     }
 
-    .ingredients-items.ice-cream {
+.ingredients-items.ice-cream {
         background-color: rgb(237, 127, 227);
     }
+
+.button-layout {
+    list-style: none; 
+    padding: 5px; 
+    margin: 5px;
+}
+
+.button-separation {
+    border: 5px;
+    margin-top: -10px;
+}
+
