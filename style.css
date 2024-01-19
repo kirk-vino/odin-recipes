@@ -9,10 +9,8 @@ button {
     font-family: "Arial", Helvetica, sans-serif;
     font-size: 30px;
     border-radius: 25px;
-}
-
-.lasagna {
-background-color: orange;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .mashed-potatoes {
@@ -122,3 +120,11 @@ div li {
 h2.heading.description {
     margin-left: 10px;
 }
+
+a .lasagna {
+    background-color: rgb(229, 132, 4); 
+}
+
+.lasagna:hover {
+    background-color: rgb(247, 82, 0);
+    }
