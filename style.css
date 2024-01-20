@@ -107,9 +107,11 @@ div li {
     }
 
 .button-layout {
-    list-style: none; 
+    list-style: none;
     padding: 5px; 
-    margin: 5px;
+    margin-left: 25px;
+    margin-right: 275px;
+    border-bottom: dotted hotpink; 
 }
 
 .button-separation {
@@ -127,4 +129,8 @@ a .lasagna {
 
 .lasagna:hover {
     background-color: rgb(247, 82, 0);
+    }
+
+    .odin-recipes {
+        margin-left: 15px;
     }
