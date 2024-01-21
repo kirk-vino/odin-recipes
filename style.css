@@ -5,7 +5,6 @@ body {
 }
   
 a {
-  background-color: #04AA6D;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -16,10 +15,11 @@ a {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 25px;
-  width: 300px;
+  width: 250px;
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .lasagna-button {
@@ -152,8 +152,8 @@ a .lasagna {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 15px;
-    padding-bottom: 15px;
-    width: 800px;
+    padding-bottom: 10px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
