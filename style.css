@@ -11,15 +11,15 @@ a {
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 25px;
+  font-size: 45px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 25px;
-  width: 250px;
+  width: 450px;
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .lasagna-button {
@@ -152,8 +152,8 @@ a .lasagna {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 15px;
-    padding-bottom: 10px;
-    width: 600px;
+    padding-bottom: 5px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto;
 }
