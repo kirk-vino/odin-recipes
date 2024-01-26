@@ -2,10 +2,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: rgb(17, 69, 160);
+    background-color: rgb(167, 176, 171);
+    text-align: center;
+}
+
+.main-page {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
   
 a {
-  border: none;
   color: white;
   padding: 20px 25px;
   text-align: center;
@@ -14,20 +21,25 @@ a {
   font-size: 50px;
   cursor: pointer;
   border-radius: 25px;
-  width: 450px;
+  max-width: 450px;
   margin: 15px auto;
   font-weight: bold;
+  transition: all 0.1s ease-out;
 }
 
-.button-container {
+a:active {
+    animation: bounce 0.5s;
+  }
+
+nav.button-container {
     background-color:rgb(83, 255, 255);
-    padding: 15px 20px;
-    width: 650px;
-    margin: 0 auto;
+    padding: 15px 25px;
+    border-radius: 10px;
 }
 
 .lasagna-button {
     background-color: rgb(228, 90, 35);
+    border: solid rgb(163, 70, 0) 1px;
     border-bottom: solid rgb(163, 70, 0) 5px;
 }
 
@@ -37,6 +49,7 @@ a {
 
 .mashed-potatoes-button {
     background-color: rgb(0, 76, 253);
+    border: solid rgb(1, 6, 168) 1px;
     border-bottom: solid rgb(1, 6, 168) 5px;
 }
 
@@ -46,11 +59,24 @@ a {
 
 .ice-cream-button {
     background-color: rgb(237, 53, 191);
+    border: solid rgb(164, 1, 77) 1px;
     border-bottom: solid rgb(164, 1, 77) 5px;
 }
 
 .ice-cream-button:hover {
     background-color: rgb(162, 2, 111);
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
 }
 
 .heading {
@@ -147,10 +173,11 @@ a .lasagna {
 }
 
 .odin-recipes {
-    width: 800px;
-    margin: 45px auto;
-    text-align: center;
+    width: 600px;
     font-size: 75px;
+    background-color: rgb(78, 159, 194);
+    border-radius: 10px;
+    padding: 10px;
     }
 
 
